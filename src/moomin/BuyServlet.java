@@ -35,7 +35,7 @@ public class BuyServlet extends HttpServlet {
         java.io.PrintWriter out = resp.getWriter();
         out.println("<HTML>");
 		out.println("<HEAD>");
-		out.println("<TITLE>Servlet Test</TITLE>");
+		out.println("<TITLE>Moomin Test</TITLE>");
 		out.println("</HEAD>");
 		out.println("<BODY>");
 		out.println(namae);
