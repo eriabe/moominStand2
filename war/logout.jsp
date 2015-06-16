@@ -5,21 +5,24 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<% String bg = (String)session.getAttribute("bg");%>
 <!DOCTYPE html>
 <CENTER>
     <html>
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-            <title>Logout??????????</title>
+            <title>Logout</title>
         </head>
-        <body background="back.jpg">
+        <body background=<%=bg%>>
             <div align ="center">
+            <font face="fantasy">
                 <h1>ご注文ありがとうございました</h1>
                 <p>
                     これで注文は完了です。またのご利用をお待ちしております。
                 </p>
                 <a href ="login.jsp">ログアウトする</a>
-            </div>-
+            </font>
+            </div>
         </body>
     </html>
 </CENTER>
