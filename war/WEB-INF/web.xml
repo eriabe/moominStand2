@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
@@ -22,15 +22,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>buy</servlet-name>
 		<url-pattern>/buy</url-pattern>
 	</servlet-mapping>
-<!-- BackGroundServlet 	
-	<servlet>
-		<servlet-name>back</servlet-name>
-		<servlet-class>moomin.BackGroundServletServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>back</servlet-name>
-		<url-pattern>/back</url-pattern>
-	</servlet-mapping>-->
 <!--  AddLinkDataServlet-->	
 	<servlet>
     	<servlet-name>add_linkdata</servlet-name>
