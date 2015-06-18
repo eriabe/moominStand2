@@ -63,7 +63,7 @@ String str = "合計:" + total + "円";
      <form action="itemListFromDB.jsp" >
     	<input type="submit" name="itemListFromDB" value="商品一覧"/>
    	 </form>
-   	  <p>購入したいメニュー番号をクリックして下さい。</p><br>
+   	 <p> 購入したいメニュー番号をクリックして下さい。</p>
   	 <form action="itemListFromDB.jsp" method="post">
   		<tr><td>
   			<input type="checkbox"  name="check" value="389">0
@@ -113,13 +113,11 @@ String str = "合計:" + total + "円";
   		
   		<td>
     		<input type="checkbox" name="check" value="389">15
-  		</td>
-		</tr>
-  		<br><input type="submit" name="cart" value="合計を表示する"/> 
+  		</td></tr>
+		<input type="image" src="nyaro.png" width="130" height="130" name="cart" value="合計を表示する"/> 
   	</form>
-  	 <form action="logout.jsp">
-  		<br><input type="submit" name="cart" value="購入完了"/>   
-    </form>
+  	<a href="logout.jsp"><img src="kin.png" width="150" height="150" name="cart" value="テイクアウト"/></a>  
+  	<a href="eatin.jsp"><img src="my.png"  width="150" height="150" name="cart" value="店内"/></a>
     <form action="/logout">
     <input type="submit" name="logout" value="ログアウト"/>
     </form>
