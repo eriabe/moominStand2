@@ -13,14 +13,16 @@
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
             <title>Logout</title>
         </head>
-        <body background=<%=bg%>>
+        <body background="takeout.jpg">
             <div align ="center">
-            <font face="fantasy">
+            <font face="fantasy"color="steelblue">
                 <h1>ご注文ありがとうございました</h1>
                 <p>
                     これで注文は完了です。またのご利用をお待ちしております。
                 </p>
-                <a href ="login.jsp">ログアウトする</a>
+                <form action="/logout">
+                    <input type="submit" name="logout" value="ログアウト"/>
+    			</form>
             </font>
             </div>
         </body>
